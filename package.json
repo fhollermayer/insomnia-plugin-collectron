@@ -1,0 +1,19 @@
+{
+	"name": "insomnia-plugin-collectron",
+	"version": "1.0.0",
+	"description": "Example plugin for Insomnia REST Client",
+	"license": "MIT",
+	"main": "./src/collectron.js",
+	"insomnia": {
+		"name": "collectron",
+		"description": "A sample plugin to demonstrate applicaton specific response investigation, paload parsing and file system persistence"
+	},
+    "scripts": {
+        "server": "./node_modules/.bin/http-server ./demo/remote"
+    },
+	"dependencies": {
+	},
+    "devDependencies": {
+        "http-server":  "^0.11.1"
+    }
+}

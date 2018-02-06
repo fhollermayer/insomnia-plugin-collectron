@@ -1,0 +1,57 @@
+{
+	"_type": "export",
+	"__export_format": 3,
+	"__export_date": "2018-02-06T00:17:04.086Z",
+	"__export_source": "insomnia.desktop.app:v5.12.4",
+	"resources": [
+		{
+			"_id": "wrk_26384a28fc454fb5bcc05e2501bae736",
+			"created": 1517876189222,
+			"description": "",
+			"modified": 1517876189222,
+			"name": "Collectron",
+			"parentId": null,
+			"_type": "workspace"
+		},
+		{
+			"_id": "env_9401377e6dec4b7180b8d66171544c62",
+			"color": null,
+			"created": 1517876189382,
+			"data": {},
+			"isPrivate": false,
+			"modified": 1517876189382,
+			"name": "New Environment",
+			"parentId": "wrk_26384a28fc454fb5bcc05e2501bae736",
+			"_type": "environment"
+		},
+		{
+			"_id": "jar_4f144968d9004b5b95f5e9d2c22f2923",
+			"cookies": [],
+			"created": 1517876189393,
+			"modified": 1517876189393,
+			"name": "Default Jar",
+			"parentId": "wrk_26384a28fc454fb5bcc05e2501bae736",
+			"_type": "cookie_jar"
+		},
+		{
+			"_id": "req_c0563757133a4f8ca4b13c53f57e1b2d",
+			"authentication": {},
+			"body": {},
+			"created": 1517876207297,
+			"description": "",
+			"headers": [],
+			"metaSortKey": -1517876207297,
+			"method": "GET",
+			"modified": 1517876209048,
+			"name": "get-sprocket",
+			"parameters": [],
+			"parentId": "wrk_26384a28fc454fb5bcc05e2501bae736",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:8080/response.json",
+			"_type": "request"
+		}
+	]
+}
